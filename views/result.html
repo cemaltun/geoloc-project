@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="/css/form_styles.css">
+<ul>
+  <li>Country: {{data['country']}}</li>
+  <li>Region: {{data['region']}}</li>
+  <li>City: {{data['city']}}</li>
+  <li>Latitude: {{data['latitude']}}</li>
+  <li>Longitude: {{data['longitude']}}</li>
+  <li>Currency: {{data['currency_code']}}
+    <ul>
+      <li>{{data['currency_name']}} / {{data['currency_symbol']}}</li>
+    </ul>
+  </li>
+  <li>Sunrise: {{data['sunrise']}} / Sunset: {{data['sunset']}}</li>
+  <li>Timezone: {{data['time_zone']}}</li>
+  <li>Distance between input and city found: {{data['distance_km']}} KM</li>
+</ul>
